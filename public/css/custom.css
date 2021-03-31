@@ -1,0 +1,82 @@
+.swp-b-right-1:after {
+    content: "";
+    border-right: 1px solid #ffffff;
+    margin: -3px 3px -3px 7px;
+    height: 13px !important;
+    display: inline-block;
+}
+
+.btn-orange-gradient {background-image: linear-gradient(to right, #FF512F 0%, #F09819  80%, #f5862b  100%)}
+.btn-orange-gradient {
+    margin-left: 20px;
+    padding: 21px 27px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-family: 'paybooc-Bold';
+    font-size: 18px;
+    border-radius: 30px;
+    display: block;
+}
+
+.btn-orange-gradient:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+button.btn-submit-orange {
+    background-color: #f36f21;
+    color: #ffffff;
+    width: 125px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.dis-ib,
+.dis-ib li {
+    display: inline-block;
+}
+
+.dis-flex-bet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.over-hidden {
+    overflow: hidden;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.box-shadow-1 {
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.4);
+}
+
+
+.m-top-20 {
+    margin-top: 20px;
+}
+
+.m-top-30 {
+    margin-top: 30px;
+}
+
+.m-top-40 {
+    margin-top: 40px;
+}
