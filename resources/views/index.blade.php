@@ -250,9 +250,6 @@
 
         $(document).ready(function () {
 
-            // $('.top-slick').slick('setPosition');
-            // $('.top-slick').slick('refresh');
-
             $('.top-slick').slick({
                 dots: true,
                 infinite: true,

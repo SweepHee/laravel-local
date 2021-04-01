@@ -137,6 +137,10 @@ nav#nav .nav-in .right-menus {
     font-family: 'paybooc-Medium';
 }
 
+.on .swp-b-right-1:after {
+    border-right: 1px solid #555555 !important;
+}
+
 nav#nav .nav-in .sub-menus-wrap {
     width: 100%;
     height: 170px;
@@ -293,7 +297,7 @@ nav#nav .nav-in .sub-menus-wrap .sub-menu-announce img {
     margin: 0 auto;
 }
 
-.selector-in button {
+.selector-in button[type=button] {
     width: 80px;
     height: 40px;
     background-color: transparent;
@@ -304,7 +308,7 @@ nav#nav .nav-in .sub-menus-wrap .sub-menu-announce img {
     color: #a1a1a1;
 }
 
-.selector-in button.on {
+.selector-in button[type=button].on {
     color: #ffffff;
     background-color: #252525;
 }

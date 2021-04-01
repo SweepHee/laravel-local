@@ -7,7 +7,7 @@ function navOn() {
     document.querySelector(".logo-white").style.display = "none";
     document.querySelector("#nav").style.background = "white";
     document.querySelector("nav#nav .nav-in").style.color = "#555555";
-    document.querySelector("nav#nav .nav-in").style.color = "#555555";
+    document.querySelector("nav#nav .nav-in .right-menus").classList.add("on");
     document.querySelector(".btn-orange-gradient").style.color = "#ffffff";
 }
 
@@ -16,7 +16,7 @@ function navOff() {
     document.querySelector(".logo-white").style.display = "block";
     document.querySelector("#nav").style.background = "transparent";
     document.querySelector("nav#nav .nav-in").style.color = "white";
-    document.querySelector("nav#nav .nav-in").style.color = "white";
+    document.querySelector("nav#nav .nav-in .right-menus").classList.remove("on");
     document.querySelector(".btn-orange-gradient").style.color = "#ffffff";
 }
 
@@ -53,11 +53,9 @@ Array.prototype.forEach.call(menus, function (i, v) {
         navOn();
         var submenus = i.querySelector("div.sub-menus-wrap");
         submenus.style.display = "block";
-        // console.log(i.offsetWidth);
         var a = i.querySelector("a");
         a.classList.add("on");
         a.style.width = (i.offsetWidth - 60) + "px";
-        console.log(a.style.width);
 
     });
 

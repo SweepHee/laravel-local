@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62d9da2-65e4-468d-b3d6-2e8244f67a44" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +22,8 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4579">
-              <caret line="241" selection-start-line="241" selection-end-line="241" />
+            <state relative-caret-position="166">
+              <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
             </state>
           </provider>
         </entry>
@@ -32,8 +31,8 @@
       <file leaf-file-name="slick-theme.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/storage/app/lib/slick/slick-theme.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2303" selection-start-column="2303" selection-end-column="2303" />
+            <state relative-caret-position="19">
+              <caret line="1" column="125" selection-start-line="1" selection-start-column="125" selection-end-line="1" selection-end-column="125" />
             </state>
           </provider>
         </entry>
@@ -56,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+            <state relative-caret-position="323">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -74,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="125" column="49" selection-start-line="125" selection-start-column="49" selection-end-line="125" selection-end-column="49" />
+            <state relative-caret-position="283">
+              <caret line="150" column="21" lean-forward="true" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -142,6 +141,11 @@
       <find>transition</find>
       <find>nav#nav .nav-in .sub-menus-wrap</find>
       <find>nav#nav .nav-in .sub-menus-wrap.sub-menus-large &gt; div</find>
+      <find>con</find>
+      <find>console.log</find>
+      <find>ajax-lo</find>
+      <find>898989</find>
+      <find>nav#nav .nav-in .right-menus</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,14 +161,14 @@
         <option value="$PROJECT_DIR$/config/filesystems.php" />
         <option value="$PROJECT_DIR$/storage/app/lib/slick/slick.js" />
         <option value="$PROJECT_DIR$/storage/app/lib/slick/slick.css" />
-        <option value="$PROJECT_DIR$/storage/app/lib/slick/slick-theme.min.css" />
         <option value="$PROJECT_DIR$/public/lib/slick/slick-theme.min.css" />
         <option value="$PROJECT_DIR$/public/css/fonts.css" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/public/css/custom.css" />
-        <option value="$PROJECT_DIR$/public/css/app.css" />
         <option value="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/storage/app/lib/slick/slick-theme.min.css" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/public/css/app.css" />
       </list>
     </option>
   </component>
@@ -425,9 +429,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="custom.css&#9;FILE&#9;file://C:/Users/BARAEM_programer2/code/laravel/public/css/custom.css&#10;filesystems&#9;FILE&#9;file://C:/Users/BARAEM_programer2/code/laravel/config/filesystems.php" />
+    <property name="SearchEverywhereHistoryKey" value="theme.min&#9;FILE&#9;file://C:/Users/BARAEM_programer2/code/laravel/storage/app/lib/slick/slick-theme.min.css&#10;custom.css&#9;FILE&#9;file://C:/Users/BARAEM_programer2/code/laravel/public/css/custom.css&#10;filesystems&#9;FILE&#9;file://C:/Users/BARAEM_programer2/code/laravel/config/filesystems.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/project/135(회사소개)/kimnpartners-crime" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -468,7 +472,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617152902980</updated>
       <workItem from="1617152904213" duration="27665000" />
-      <workItem from="1617238761386" duration="20012000" />
+      <workItem from="1617238761386" duration="23502000" />
     </task>
     <task id="LOCAL-00001" summary="메인 퍼블리싱 중">
       <created>1617186040767</created>
@@ -477,11 +481,25 @@
       <option name="project" value="LOCAL" />
       <updated>1617186040767</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PC메인 스크립트 완료">
+      <created>1617268824493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617268824493</updated>
+    </task>
+    <task id="LOCAL-00003" summary="PC메인 스크립트 완료2">
+      <created>1617269535173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617269535173</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47677000" />
+    <option name="totallyTimeSpent" value="51167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
@@ -517,7 +535,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="메인 퍼블리싱 중" />
-    <option name="LAST_COMMIT_MESSAGE" value="메인 퍼블리싱 중" />
+    <MESSAGE value="PC메인 스크립트 완료" />
+    <MESSAGE value="PC메인 스크립트 완료2" />
+    <option name="LAST_COMMIT_MESSAGE" value="PC메인 스크립트 완료2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
@@ -683,20 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/lib/slick/slick-theme.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2303" selection-start-column="2303" selection-end-column="2303" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4579">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/app/img/icon_tel_blue.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -713,13 +719,6 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/기부 프로그램.url">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="125" column="49" selection-start-line="125" selection-start-column="49" selection-end-line="125" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -734,10 +733,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/lib/slick/slick-theme.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="125" selection-start-line="1" selection-start-column="125" selection-end-line="1" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+        <state relative-caret-position="323">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="150" column="21" lean-forward="true" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
         </state>
       </provider>
     </entry>
