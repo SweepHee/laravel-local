@@ -36,7 +36,7 @@ function toastDown() {
 }
 
 document.addEventListener("scroll", function() {
-    var _scroll = document.documentElement.scrollTop;
+    const _scroll = document.documentElement.scrollTop;
     if (_scroll > 80) {
         navOn();
         toastUp();
@@ -45,7 +45,6 @@ document.addEventListener("scroll", function() {
         toastDown();
     }
 });
-
 
 
 Array.prototype.forEach.call(menus, function (i, v) {
