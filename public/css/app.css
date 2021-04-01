@@ -83,11 +83,16 @@ a, a:hover, a:visited, a:active {
 
 nav#nav {
     width: 100%;
-    position: absolute;
+    position: fixed;
     background-color: transparent;
     top:0;
     left: 0;
-    z-index:9999
+    z-index:9999;
+    transition: 0.4s;
+}
+
+nav#nav .logo-black {
+    display: none;
 }
 
 nav#nav .nav-in {
@@ -110,13 +115,110 @@ nav#nav .nav-in .center-menus ul li {
     padding: 0 30px;
 }
 
+nav#nav .nav-in .center-menus ul li a {
+    transition: color 0.5s;
+}
+
+nav#nav .nav-in .center-menus ul li a:hover {
+    color: #0061ae;
+}
+
+nav#nav .nav-in .center-menus ul.menu > li > a.on:before {
+    content: "";
+    position:absolute;
+    margin-top: 55px;
+    width: inherit;
+    height: 3px;
+    border-bottom: 2px solid #0061ae;
+}
+
 nav#nav .nav-in .right-menus {
     font-size: 15px;
     font-family: 'paybooc-Medium';
 }
 
+nav#nav .nav-in .sub-menus-wrap {
+    width: 100%;
+    height: 170px;
+    position: absolute;
+    left: 0;
+    padding-top: 41px;
+    display: none;
+    transition: 0.4s;
+}
+
+nav#nav .nav-in .sub-menus-wrap.sub-menus-large {
+    height: 210px;
+}
+
+nav#nav .nav-in .sub-menus-wrap ul {
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #b7b7b7;
+}
+
+nav#nav .nav-in .sub-menus-wrap.sub-menus-large > div {
+    border-top: 1px solid #b7b7b7;
+    height: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+
+nav#nav .nav-in .sub-menus-wrap.sub-menus-large > div table {
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: "paybooc-Medium";
+    text-align: left;
+}
+
+nav#nav .nav-in .sub-menus-wrap.sub-menus-large > div table tr th {
+    width: 140px;
+    padding: 10px 0;
+}
+
+nav#nav .nav-in .sub-menus-wrap.sub-menus-large > div table tr td.tb01 {
+    width: 165px;
+}
+
+nav#nav .nav-in .sub-menus-wrap.sub-menus-large > div table tr td.tb02 {
+    width: 130px;
+}
+
+nav#nav .nav-in .sub-menus-wrap.sub-menus-large > div table tr td.tb03 {
+    width: 105px;
+}
 
 
+
+nav#nav .nav-in .sub-menus-wrap li {
+    font-size: 16px;
+    font-family: "paybooc-Medium";
+    line-height: 78px;
+    transition: 0.2s;
+}
+
+nav#nav .nav-in .sub-menus-wrap a {
+    color: #636363;
+    transition: 0.4s ease-in-out;
+}
+
+nav#nav .nav-in .sub-menus-wrap a:hover,
+nav#nav .nav-in .sub-menus-wrap li.on {
+    color: #0061ae;
+    transition: 0.4s;
+}
+
+
+nav#nav .nav-in .sub-menus-wrap .sub-menu-announce {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ebebeb;
+}
+
+nav#nav .nav-in .sub-menus-wrap .sub-menu-announce img {
+    margin-right: 5px;
+}
 
 
 /* 메인 */
@@ -389,4 +491,68 @@ section.main-content .content5 ul li span {
     font-family: "paybooc-Bold";
     color: #363636;
     font-size: 18px;
+}
+
+
+
+/* footer */
+footer {
+    padding-bottom: 260px;
+    background: url("/img/main_background.png") bottom
+}
+
+footer .footer-in {
+    font-size: 16px;
+    color: #555555;
+    font-family: "paybooc-Medium";
+}
+
+footer .footer-desc {
+
+}
+
+footer table.links {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+footer table.links th {
+    font-weight: normal;
+    text-align: left;
+    width: 100px;
+}
+
+footer table.links td {
+    font-weight: bold;
+    font-family: "paybooc-Bold";
+    padding: 7px 0;
+    color: #555555;
+}
+
+footer table.links td li:not(.none):after {
+    content: "";
+    border-right: 1px solid #b7b7b7;
+    margin: 0 15px;
+    height: 8px;
+}
+
+footer table.footer-announce {
+    font-family: "paybooc-Bold";
+}
+
+footer table.footer-announce tr td {
+    padding: 7px 0;
+}
+
+footer table.footer-announce tr td.long {
+    width: 325px;
+}
+
+footer table.footer-announce img {
+    margin-right: 8px;
+}
+
+footer .footer-logo {
+    width: 280px;
 }

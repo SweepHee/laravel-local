@@ -80,3 +80,22 @@ button.btn-submit-orange {
 .m-top-40 {
     margin-top: 40px;
 }
+
+
+.m-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.m-bottom-40 {
+    margin-bottom: 40px;
+}
+
+
+.p-top-10 {
+    padding-top: 10px;
+}
+
+
+.fc-orange {
+    color: #f37022;
+}
