@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62d9da2-65e4-468d-b3d6-2e8244f67a44" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lib/slick/slick-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/lib/slick/slick-theme.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -472,7 +470,7 @@
       <updated>1617152902980</updated>
       <workItem from="1617152904213" duration="27665000" />
       <workItem from="1617238761386" duration="23521000" />
-      <workItem from="1617324252239" duration="932000" />
+      <workItem from="1617324252239" duration="1035000" />
     </task>
     <task id="LOCAL-00001" summary="메인 퍼블리싱 중">
       <created>1617186040767</created>
@@ -506,7 +504,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52118000" />
+    <option name="totallyTimeSpent" value="52221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
